@@ -1,0 +1,41 @@
+.card{
+    
+    width: 60%;
+    margin:  auto;
+    
+}
+
+.row{
+    margin-top: 50px;
+    Padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.row > .img > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+    box-shadow: rgb(205 245 255) -2px 1px 6px;
+    cursor: pointer;
+}
+.row > .img {
+    margin-right: 20px;
+   
+}
+.row > .title > h2{
+    font-weight: bold;
+    cursor: pointer; 
+    margin-bottom: 10px;
+}
+
+.row > .title > h2:hover{
+    color: #0088a9;
+    transition: 0.5s;
+}
+.desc{
+    margin-top: 15px;
+}
+
