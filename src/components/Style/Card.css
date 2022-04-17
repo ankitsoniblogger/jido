@@ -18,7 +18,7 @@
     width: 150px;
     height: 150px;
     border-radius: 14px;
-    box-shadow: rgb(205 245 255) -2px 1px 6px;
+    box-shadow: rgb(255 234 173) -2px 1px 6px;
     cursor: pointer;
 }
 .row > .img {
@@ -31,8 +31,8 @@
     margin-bottom: 10px;
 }
 
-.row > .title > h2:hover{
-    color: #0088a9;
+.title > a > h2:hover{
+    color: orange;
     transition: 0.5s;
 }
 .desc{

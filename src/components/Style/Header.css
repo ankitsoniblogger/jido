@@ -2,7 +2,7 @@
 
 *{
   font-family: "Poppins", sans-serif;
-  background-color: #242524;
+  /* background-color: #242524; */
   color: #ecf0f1;
 }
 li,
@@ -37,16 +37,18 @@ header {
   transition: all 0.3s ease 0s;
 }
 .nav__links li a:hover {
-  color: #0088a9;
+  color: orange;
 }
 button {
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: orange;
   border: none;
   border-radius: 50px;
   cursor: pointer;
+  color: #000;
+  font-weight: 500;
   transition: all 0.3s ease 0s;
 }
 button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+  background-color: oranged;
 }

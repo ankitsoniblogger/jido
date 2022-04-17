@@ -13,20 +13,26 @@ const Header = () => {
         <ul className="nav__links">
           <li><NavLink style={({isActive}) => {
             return {
-              color: isActive ? '#0088a9' : '#ecf0f1'
+              color: isActive ? 'orange' : '#ecf0f1'
             }
           }
           } to="/service">Services</NavLink></li>
           <li><Link to="#">Project</Link></li>
           <li><NavLink style={({isActive}) => {
             return {
-              color: isActive ? '#0088a9' : '#ecf0f1'
+              color: isActive ? 'orange' : '#ecf0f1'
             }
           }
           } to="/about">About</NavLink></li>
+           <li><NavLink style={({isActive}) => {
+            return {
+              color: isActive ? 'orange' : '#ecf0f1'
+            }
+          }
+          } to="/contact">Contact</NavLink></li>
         </ul>
       </nav>
-      <Link className="cta" to="/contact"><button>Contact</button></Link>
+      <Link className="cta" to="/login"><button>Login</button></Link>
     </header>
 
     </div>

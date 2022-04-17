@@ -1,9 +1,12 @@
 import React from 'react'
-import { Routes ,Route, Link } from 'react-router-dom';
+import { Routes ,Route } from 'react-router-dom';
 import Card from './components/Card'
 import Header from './components/Header'
 import About from './components/About'
+import Login from './components/Login';
 import Contact from './components/Contact';
+import Services from './components/Services';
+
 
 const App = () => {
   return (
@@ -11,10 +14,14 @@ const App = () => {
       
       <Header />
       <Routes>
-         <Route exact path='/' element={<Card/>} />
-         <Route exact path='/about' element={<About/>} />
-         <Route exact path='/contact' element={<Contact/>} />
+         <Route path='/' element={<Card/>} />
+         <Route path='/service' element={<Services/>} />
+         <Route path='/about' element={<About/>} />
+         <Route path='/login' element={<Login/>} />
+         <Route path='/contact' element={<Contact/>} />
+
       </Routes>
+    
       {/* <Card />
       <Card />
       <Card />
