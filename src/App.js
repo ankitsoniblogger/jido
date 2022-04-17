@@ -6,6 +6,7 @@ import About from './components/About'
 import Login from './components/Login';
 import Contact from './components/Contact';
 import Services from './components/Services';
+import Card1 from './components/Card1';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
          <Route path='/about' element={<About/>} />
          <Route path='/login' element={<Login/>} />
          <Route path='/contact' element={<Contact/>} />
+         <Route path='/card1' element={<Card1/>} />
 
       </Routes>
     

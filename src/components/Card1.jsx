@@ -1,0 +1,23 @@
+import React from 'react'
+import './Cards.css'
+
+const Card1 = () => {
+  return (
+    <>
+        <div className="card_container">
+          <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9" alt=""/>
+            <h1 className='card_title'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, mollitia.
+           </h1>
+            <p className='card_desc'>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, non. Optio, id similique. Officia neque voluptate expedita repudiandae commodi, sapiente minima sunt libero unde rem quidem iste adipisci accusantium. Nulla sunt ut possimus quaerat neque explicabo quod dolorem maxime reiciendis repudiandae architecto laborum aliquam quisquam cumque, accusantium sequi similique officiis dicta asperiores, cum cupiditate voluptates repellendus! Ex delectus officiis fugiat soluta modi sunt saepe tenetur nesciunt cupiditate laudantium quia consectetur dolore mollitia, tempore perspiciatis, repellat qui? Hic, earum. Aliquam eius ullam deserunt! Accusamus illum minus error, quos ipsa vero nisi quidem saepe asperiores quo, sit sint impedit non ipsum beatae!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veniam. Itaque et alias ab! Quis, facere minus commodi, id quia minima sint animi cum nesciunt numquam reiciendis ducimus nihil magnam eum sit ipsam ipsum laborum mollitia doloremque at perspiciatis impedit eius accusamus? Esse, quod laborum, tempore voluptatibus laudantium iusto rem ducimus asperiores quam consectetur voluptatem expedita atque. Quia fugiat illo debitis temporibus obcaecati ab impedit repellendus minima. Eos, accusamus quo. Recusandae voluptas tempore quisquam similique officiis error illum reiciendis qui ducimus at minus sint totam veritatis, dolores earum neque laborum ullam dolore! Cum reprehenderit facilis ex voluptatum eius incidunt sunt corrupti iusto obcaecati error. Similique nisi placeat sequi iusto molestiae repellat quisquam vero velit eum quidem aliquid quia, autem enim ab, odio voluptas eaque! Mollitia itaque ut iste unde obcaecati enim eaque, minus culpa impedit repellendus ad vel voluptas quis non alias quia officia illum necessitatibus. Quae suscipit repellat ex. Accusantium earum doloremque animi, error quia nisi asperiores esse non ut nihil doloribus velit consectetur deserunt. Dolorem praesentium voluptates dolore ullam consectetur commodi aut, cum asperiores. Rerum, provident repellat. Eveniet consequatur non et soluta ea quam ullam libero corrupti excepturi! Iusto natus error possimus animi illum. Placeat autem exercitationem tempora nemo totam minus tenetur reiciendis perferendis, veniam accusantium soluta architecto est ad fuga necessitatibus corrupti aliquid tempore non recusandae? Modi ab enim, quis ipsum veritatis exercitationem doloremque provident excepturi? Ipsum nam, excepturi veritatis aliquam fuga maiores commodi illum exercitationem tempore officia possimus voluptatum iste ad, nihil nostrum cum fugiat minima? Quidem corrupti, voluptates natus vel reprehenderit dicta itaque, quis laborum corporis officia iusto rerum odit repellat tempore quibusdam fuga! Reiciendis cupiditate repellendus sapiente ratione et labore sint iusto, saepe exercitationem fugit architecto quod quaerat eum dicta, soluta numquam voluptatum maxime amet magnam dolores, neque necessitatibus dolor consequuntur. Aliquid fugit facilis voluptatum temporibus excepturi quidem hic amet et dicta eveniet eligendi autem nulla sit adipisci ipsa, vero voluptatibus ab qui quod asperiores quos animi omnis earum. Cum voluptatum rem magnam praesentium dolore provident, velit adipisci voluptas qui, quia suscipit vero quae ullam sunt libero minima nemo pariatur repudiandae veritatis, tempore incidunt recusandae soluta! Placeat quisquam rem qui sint sapiente tempora distinctio illo voluptates aspernatur ex ipsam a delectus repudiandae, modi exercitationem eum explicabo autem nam, quam rerum at doloremque. Odio cumque nobis quasi saepe est dolores vitae voluptatibus eum facere optio praesentium corrupti magni quaerat eligendi assumenda obcaecati, temporibus provident neque? Assumenda ratione aliquam esse suscipit, ab repellat dolore adipisci totam eveniet facilis, ipsum sit sed eaque explicabo voluptatem ex. Rem omnis iure alias? Iste quos sapiente velit recusandae incidunt ducimus ut perferendis? Consequuntur tempore dolorem natus placeat amet cumque qui incidunt dolorum obcaecati, explicabo itaque sit veniam animi recusandae! Neque.
+           </p>
+        </div>
+
+        
+    </>
+  )
+}
+
+export default Card1

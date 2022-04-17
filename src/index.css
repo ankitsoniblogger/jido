@@ -4,3 +4,12 @@
   box-sizing: border-box;
 
 }
+::-moz-selection{
+  background:orange;
+  color: #000;
+}
+::selection{
+  background:orange;
+  color: #000;
+
+}
