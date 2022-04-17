@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.aefeba96.css",
+    "main.js": "/react/static/js/main.6226164a.js",
+    "static/media/jidologo.png": "/react/static/media/jidologo.344f18f2d5600c6c824d.png",
+    "index.html": "/react/index.html",
+    "main.aefeba96.css.map": "/react/static/css/main.aefeba96.css.map",
+    "main.6226164a.js.map": "/react/static/js/main.6226164a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aefeba96.css",
+    "static/js/main.6226164a.js"
+  ]
+}
